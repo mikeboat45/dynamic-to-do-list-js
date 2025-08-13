@@ -26,6 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
 
         taskItem.appendChild(removeBtn);
+        taskList.appendChild(taskItem);
         taskInput.value = "";
         
     }
